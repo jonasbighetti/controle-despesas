@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ControleDespesas.API</name>
+    </assembly>
+    <members>
+        <member name="M:ControleDespesas.API.Controllers.DespesaController.Post(ControleDespesas.AppService.DTO.DespesaDTO)">
+            <summary>
+            Cadastro de nova despesa
+            </summary>
+        </member>
+        <member name="M:ControleDespesas.API.Controllers.DespesaController.Get(System.Guid)">
+            <summary>
+            Buscar despesa por ID
+            </summary>
+        </member>
+        <member name="M:ControleDespesas.API.Controllers.DespesaController.GetAll">
+            <summary>
+            Buscar todas as despesas
+            </summary>
+        </member>
+        <member name="M:ControleDespesas.API.Controllers.DespesaController.Put(System.Guid,ControleDespesas.AppService.DTO.DespesaDTO)">
+            <summary>
+            Editar uma despesa
+            </summary>
+        </member>
+        <member name="M:ControleDespesas.API.Controllers.DespesaController.Delete(System.Guid)">
+            <summary>
+            Excluir uma despesa
+            </summary>
+        </member>
+    </members>
+</doc>

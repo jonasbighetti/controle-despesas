@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleDespesas.Dominio\ControleDespesas.Dominio.csproj" />
+    <ProjectReference Include="..\ControleDespesas.Infra.Data\ControleDespesas.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
